@@ -1,0 +1,72 @@
+# DIGIY NOTABLE — Notaires, Agences, Assurances & Grands Comptes
+
+**DIGIY NOTABLE** est le module de l’écosystème **DIGIYLYFE** dédié aux acteurs “notables” :
+
+- Notaires, études notariales
+- Agences (assurances, voyages, immobilières)
+- Architectes, bureaux d’études
+- Experts-comptables, cabinets conseil
+- Grandes surfaces, enseignes, grosses quincailleries
+- Institutions et grands comptes
+
+🎯 Objectif : offrir une **présence digitale officielle** dans l’univers DIGIY,  
+avec **contact direct client** (WhatsApp / Appel / Email) et **0% commission** sur les ventes.
+
+---
+
+## 🚀 Fonctionnalités
+
+### 👀 Côté grand compte / organisation
+
+- Fiche officielle **DIGIY NOTABLE** :
+  - Nom, secteur, localisation
+  - Coordonnées (WhatsApp, téléphone, email)
+  - Texte de présentation + services
+- Intégration dans l’écosystème DIGIY :
+  - Visibilité via **DIGIY EXPLORE**, HUB, pages clients
+  - Possibles connexions avec :
+    - **DIGIY LOC** (dossiers loc / immo)
+    - **DIGIY BONNE AFFAIRE** (revente de matériel, biens)
+    - **DIGIY MARKET / PAY** (selon évolution)
+- Modèle clair :
+  - **0% de commission** sur vos ventes
+  - Abonnements de **présence & accompagnement**
+
+### 🧰 Côté DIGIY / Ecosystème
+
+- Module `notable` reconnu dans :
+  - Page d’inscription (choix de modules)
+  - MON ESPACE DIGIY (HUB partenaires)
+  - Base Supabase (plans & abonnements)
+
+---
+
+## 🧱 Structure du projet
+
+Ce dépôt est une **single-page app statique** (HTML + CSS uniquement) :
+
+- `index.html`
+  - Header DIGIY NOTABLE
+  - Bloc **HERO** (explication, tags, appels à l’action)
+  - Section **Métiers concernés** (notaires, agences, grandes surfaces…)
+  - Section **Packs & formules DIGIY NOTABLE**
+  - Section **Exemples d’usages**
+  - Section **Contact & Partenariat**
+  - Footer avec mention DIGIYLYFE + disclaimer
+
+Aucun backend nécessaire pour cette page :  
+👉 Elle est parfaite pour tourner sur **GitHub Pages**, puis être reliée :
+
+- au **DIGIY HUB** (Mon Espace DIGIY),
+- au site **digiylyfe.com** (rubrique “Notables / Grands comptes”),
+- à des campagnes directes (WhatsApp, email…).
+
+---
+
+## 🌍 Déploiement sur GitHub Pages
+
+1. Cloner le repo :
+
+```bash
+git clone https://github.com/<ton-pseudo>/DIGIY-NOTABLE.git
+cd DIGIY-NOTABLE
